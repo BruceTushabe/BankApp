@@ -60,8 +60,9 @@ class BankAccount{
         char option;
         Scanner sc = new Scanner(System.in);
         System.out.println("Welcome "+customerName);
-        System.out.println("Your ID:"+customerId);
+        System.out.println("This is Your ID:"+customerId);
         System.out.println("\n");
+        System.out.println("Choose of the following Options to Proceed:");
         System.out.println("a) Check Balance");
         System.out.println("b) Deposit Amount");
         System.out.println("c) Withdraw Amount");
@@ -70,7 +71,7 @@ class BankAccount{
 
         do{
             System.out.println("********************************************");
-            System.out.println("Choose an option");
+            System.out.println("Please Enter one option: ");
             option = sc.next().charAt(0);
             System.out.println("\n");
 
