@@ -1,0 +1,70 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch DogTestDrive",
+            "request": "launch",
+            "mainClass": "com.DogTestDrive",
+            "projectName": "BankApp_dc7b898c"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
+            "mainClass": "com.Main",
+            "projectName": "BankApp_dc7b898c"
+        },
+        {
+            "type": "java",
+            "name": "Launch JavaArray",
+            "request": "launch",
+            "mainClass": "com.arrays.JavaArray",
+            "projectName": "BankApp_dc7b898c"
+        },
+        {
+            "type": "java",
+            "name": "Launch bankapp",
+            "request": "launch",
+            "mainClass": "com.bankapp",
+            "projectName": "BankApp_dc7b898c"
+        },
+        {
+            "type": "java",
+            "name": "Launch filer",
+            "request": "launch",
+            "mainClass": "com.filer",
+            "projectName": "BankApp_dc7b898c"
+        },
+        {
+            "type": "java",
+            "name": "Launch PetTest",
+            "request": "launch",
+            "mainClass": "com.pets.PetTest",
+            "projectName": "BankApp_dc7b898c"
+        },
+        {
+            "type": "java",
+            "name": "Launch scanned",
+            "request": "launch",
+            "mainClass": "com.scanned",
+            "projectName": "BankApp_dc7b898c"
+        },
+        {
+            "type": "java",
+            "name": "Launch testScanner",
+            "request": "launch",
+            "mainClass": "com.testScanner",
+            "projectName": "BankApp_dc7b898c"
+        }
+    ]
+}
